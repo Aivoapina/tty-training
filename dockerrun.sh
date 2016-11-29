@@ -9,4 +9,3 @@ docker run -d --name frontend -p 8080:80 frontimage
 docker run -d --name haproxy -p 80:80 haproxy
 docker run -d --name logstash -p 2000:2000 logstash
 #docker swarm init --advertise-addr 127.0.0.1
-
